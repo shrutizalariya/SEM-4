@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body style="background-color: skyblue;">
+    <div class="container border text-primary bg-light">
+        <div class="col-12 text-center py-5 bg-primary">
+            
+        </div>
+        <div class="col-12 text-center py-5">
+            <h1><b>Order/delivery Tracking</b></h1>
+            <h4>Trace your order</h4>
+        </div>
+        <div class="col-12">
+            <h4>Personal Information</h4>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-4 px-5 py-2">
+                <label for="name" class="form-label">Name *</label>
+            </div>
+            <div class="col-8 px-5 py-2">
+                <input type="text" class="form-control" id="name" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 px-5 py-2">
+                <label for="email" class="form-label">Email *</label>
+            </div>
+            <div class="col-8 px-5 py-2">
+                <input type="text" class="form-control" id="email" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 px-5 py-2">
+                <label for="contactNo" class="form-label">Contact Number *</label>
+            </div>
+            <div class="col-8 px-5 py-2">
+                <input type="text" class="form-control" id="contactNo" >
+                As per your order
+            </div>
+        </div>
+        <div class="col-12">
+            <h4>Order Information</h4>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-4 px-5 py-2">
+                <label for="orderID" class="form-label">Order ID *</label>
+            </div>
+            <div class="col-8 px-5 py-2">
+                <input type="text" class="form-control" id="orderID" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 px-5 py-2">
+                <label for="streetAddress" class="form-label">Delivery Destination *</label>
+            </div>
+            <div class="row">
+                <div class="col-8 px-5 py-2">
+                    <input type="text" class="form-control" id="streetAddress" >
+                    Street Address
+                </div>
+                <div class="col-8 px-5 py-2">
+                    <input type="text" class="form-control" id="addressLine2" >
+                    Address Line 2
+                </div>
+                <div class="col-4 px-5 py-2">
+                    <input type="text" class="form-control" id="city" >
+                    City
+                </div>
+                <div class="col-4 px-5 py-2">
+                    <input type="text" class="form-control" id="state" >
+                    State/Region/Province
+                </div>
+                <div class="col-4 px-5 py-2">
+                    <input type="text" class="form-control" id="zipCode" >
+                    Postal /Zip Code
+                </div>
+                <div class="col-4 dropdown px-5 py-2">
+                    <button class="col-12 btn btn-light dropdown-toggle border border-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      -Select-
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item active" href="#">India</a></li>
+                      <li><a class="dropdown-item" href="#">USA</a></li>
+                      <li><a class="dropdown-item" href="#">Brazil</a></li>
+                      <li><a class="dropdown-item" href="#">Australia</a></li>
+                    </ul>
+                    Country
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-4 px-5 py-2">
+                    <label for="orderDate" class="form-label">When did you place your order? *</label>
+                </div>
+                <div class="col-4 px-5 py-2">
+                    <input type="date" class="form-control" id="orderDate" >
+                    dd-MMM-yyyy
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary p-2">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
